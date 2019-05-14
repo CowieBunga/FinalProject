@@ -1,0 +1,461 @@
+/*          BODY
+---------------------------------
+ */
+body{
+    background: darkgrey;
+    margin: 0 0 0 0;
+    height: 1px;
+}
+
+
+/*          WRAPPER
+---------------------------------
+ */
+#wrapper{
+    width: 800px;
+    margin: 20px auto;
+}
+/*          HEADER
+--------------------------------
+ */
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(space2.jpg);
+    left: 1000px;
+}
+
+
+.title{
+    font-family: "Rock Salt", georgia, serif;
+    color: aqua;
+    position: absolute;
+    font-size: xx-large;
+    padding: 2px;
+}
+
+.subtitle{
+    font-family: "Rock Salt", georgia, serif;
+    color: aqua;
+    position: absolute;
+    font-size: large;
+    padding: 5px;
+}
+
+.neil-img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    background-image: url(neil-hands.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.neil-img:hover{
+    background-size: 200%;
+    background-position: top;
+}
+
+.einstein-img{
+    width: 195px;
+    height: 195px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -10px;
+    background-image: url(einstein.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hawking-img2 {
+    width: 160px;
+    height: 160px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -10px;
+    background-image: url(hawking.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*          CONTENT
+--------------------------------
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: relative;
+    width: 800px;
+    height: 1680px;
+    bottom: 1px;
+    right: -170px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.body{
+    font-family: "Times New Roman", georgia, serif;
+    color: black;
+    position: absolute;
+    font-size: medium;
+    padding-left: 20px;
+}
+
+.imp-text{
+    font-family: "Times New Roman", georgia, serif;
+    color: black;
+    position: absolute;
+    font-size: large;
+    padding-left: 10px;
+}
+.cool-img{
+    width: 200px;
+    height: 160px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    background-image: url(cool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.earthobserver-img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 40px;
+    margin-top: -5px;
+    background-image: url(earthobserver.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px solid black;
+}
+
+.SKA{
+    width: 220px;
+    height: 200px;
+    float: right;
+    margin-right: 320px;
+    margin-top: -570px;
+    background-image: url(SKA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 4px solid black;
+}
+
+.SKA-text{
+    float: right;
+    width: 300px;
+    margin-top: -600px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.cimon-box {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    border: 4px solid black;
+
+}
+
+.cimon-text{
+    width: 770px;
+}
+
+.martian{
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -220px;
+    background-image: url(martian.jpg);
+    background-size: cover;
+    border: 4px solid black;
+}
+
+.mars-text{
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    float:left;
+}
+
+.second{
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    margin-right: 260px;
+    float: right;
+ }
+
+.third{
+    width: 250px;
+    font-size: medium;
+    text-align: center;
+    float: right;
+    margin-top: -263px;
+}
+
+.mars-wide{
+    width: 700px;
+    height:180px;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-image: url(marswide.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+
+}
+
+/*          New Section
+--------------------------------
+ */
+
+
+.new-title{
+    margin-top: 850px;
+    padding:2px;
+    margin-bottom: -10px;
+    float: bottom;
+}
+
+.extend-body {
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    bottom: 848px;
+    right: -10px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom-half{
+    position: relative;
+    width: 1200px;
+    height: 1800px;
+    bottom: 872px;
+    right: -10px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+.bottom-title{
+    float: top;
+    text-indent: 2em;
+    margin-top: 10px;
+    right: 10px;
+}
+
+.main-para{
+    font-size: large;
+    text-align: justify;
+    color: white;
+    padding: 5px;
+    width: 400px;
+}
+
+.elon-img{
+    width: 250px;
+    height:300px;
+    margin-right: 500px;
+    margin-top: -280px;
+    background-image: url(elon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.elon-text{
+    font-size: large;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    float: right;
+    margin-top: -300px;
+    margin-right: 300px;
+}
+
+.hawking-img{
+    width: 250px;
+    height: 350px;
+    margin-right: -440px;
+    margin-top: -330px;
+    background-image: url(hawking4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.SKICAT{
+    width: 700px;
+    height: 370px;
+    margin-right: -100px;
+    margin-top: 10px;
+    background-image: url(SKICAT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#SKICAT-text{
+    width: 400px;
+    float: right;
+    margin-top: -350px;
+    text-align: center;
+}
+
+
+
+/*          SIDEBAR
+--------------------------------
+ */
+.side-bar {
+       position: relative;
+       width: 300px;
+       height: 1700px;
+       bottom: 1px;
+       right: 200px;
+       background-color: tan;
+       color: black;
+       padding-left: 20px;
+       padding-right: 20px;
+       float: left;
+   }
+
+.AI-img {
+    width: 300px;
+    height: 200px;
+    background-image: url(aiImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.AI-img:hover {
+    background-size: 100%;
+}
+
+.imp-quote{
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.me{
+    width: 200px;
+    height: 200px;
+    background-image: url(IMG-1286.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    -webkit-transform: rotate(90deg);
+    border: 5px solid blue;
+
+}
+
+.bio-intro{
+    font-family: "Times New Roman", georgia, serif;
+    font-size: medium;
+    color: blue;
+    margin-top: -180px;
+    float: right;
+    text-align: center;
+}
+
+.bio{
+    font-size: large;
+    text-align: center;
+    color: red;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.mars-photo{
+    width: 300px;
+    height: 280px;
+    background-image: url(mars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*          FOOTER
+--------------------------------
+ */
+footer {
+    position: relative;
+    width: 840px;
+    height: 30px;
+    background: green;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    right: -170px;
+    bottom: 7px;
+}
+
+/*
+            NAVBAR
+--------------------------------
+I got help with this from online
+*/
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    height: 50px;
+    width: 140px;
+    float: right;
+    margin-top: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: forestgreen;
+    color: white;
+}
